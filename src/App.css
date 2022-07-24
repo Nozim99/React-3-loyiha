@@ -2,15 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.Loader span{
+  width: 150px;
+  height: 150px;
+}
+
+.Loader{
+  height: 100%;
 }
 
 .App-header {
@@ -22,6 +26,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.card-body{
+  height: 160px;
+}
+.card-body h4{
+  max-height: 56.3px;
+  overflow: hidden;
+}
+
+.card-body p{
+  max-height: 48px;
+  overflow: hidden;
 }
 
 .App-link {
